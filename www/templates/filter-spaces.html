@@ -2,7 +2,7 @@
     <form ng-show="!showFilter" ng-submit="applyFilters()">
         <label class="item item-input search-input">
             <i class="icon elegant-icon icon-search placeholder-icon"></i>
-            <input ng-model="temp.keyword" type="text" placeholder="Buscar espaços">
+            <input ng-model="temp.keyword" type="text" placeholder="Buscar picos">
         </label>
 
         <button class="search-btn" type="submit"></button>
@@ -32,7 +32,7 @@
     <div class="list">
         <div class="item item-toggle">
             <i class="icon icon_circle-selected"></i>
-            <span class="input-label">Somente espaços verificados</span>
+            <span class="input-label">Somente picos verificados</span>
             <label class="toggle toggle-dark">
                 <input type="checkbox" ng-model="temp.verified">
                 <div class="track">

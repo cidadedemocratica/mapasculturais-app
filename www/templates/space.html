@@ -1,5 +1,5 @@
 <ion-view title="Espaço">
-    <div class="header space">Espaço</div>  
+    <div class="header space">Pico</div>  
     <ion-content class="has-header single" overflow-scroll="true">
         <img class="img" ng-if="entity.$files.avatarEvent" ng-src="{{::entity.$files.avatarEvent.url}}">
 
@@ -11,7 +11,7 @@
                 
                 <hr>
                 <div ng-if="entity.isVerified" class="information">
-                    <span class="label"> este espaço é verificado</span>
+                    <span class="label"> este pico é verificado</span>
                 </div>
 
                 <p><span class="label">Endereço:</span> {{::entity.endereco}}</p>
@@ -25,7 +25,7 @@
             <div class="events list" ng-if="entity.id" ng-controller="eventsCtrl" ng-init="findFunction = 'findBySpace'; findEntityId = entity.id">
                 
                 <ul ng-if="false" class="single-tabs">
-                    <li class="tab tab-event active">Eventos</li>
+                    <li class="tab tab-event active">Atividades</li>
                     <li class="tab tab-space">Subespaços</li>
                 </ul>
                 <div class="header event">

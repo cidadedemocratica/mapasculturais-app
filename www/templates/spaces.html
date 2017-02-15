@@ -1,4 +1,4 @@
-<ion-view style="" title="Espaços">
+<ion-view style="" title="Picos">
     <div class="header space">
         <filter-spaces on-apply="applyFilters" filters="filters"></filter-spaces>
     </div>  
@@ -13,7 +13,7 @@
                 </div>
                 
                 <div ng-if="entity.isVerified" class="information">
-                    <span class="label"> este espaço é verificado</span>
+                    <span class="label"> este pico é verificado</span>
                 </div>
 
                 <div class="information">
@@ -24,7 +24,7 @@
             </ion-item>
         </ion-list>
         
-        <p ng-if="notFound" class="not-found" style="padding:15px; text-align: center">Nenhum espaço encontrado, refaça a busca.</p>
+        <p ng-if="notFound" class="not-found" style="padding:15px; text-align: center">Nenhum pico encontrado, refaça a busca.</p>
         
         <ion-infinite-scroll ng-if="moreDataCanBeLoaded()" on-infinite="loadMore()" distance="10%"></ion-infinite-scroll>
     </ion-content>
