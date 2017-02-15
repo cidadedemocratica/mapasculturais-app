@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="br.com.hacklab.mapasculturais" version="1.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>Mapas Culturais</name>
+<widget id="br.org.cidadedemocratica" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Agenda da Quebrada</name>
   <description>
-        Aplicativo da Plataforma Mapas Culturais.
+        Aplicativo da Agenda da Quebrada baseado na Plataforma do Mapas Culturais.
     </description>
-  <author email="contato@hacklab.com.br" href="http://hacklab.com.br/">
-      hacklab/
+  <author email="contato@cidadedemocratica.org.br" href="http://instituto.cidadedemocratica.org.br/">
+      cidadedemocratica/
     </author>
   <content src="index.html"/>
   <access origin="*"/>
